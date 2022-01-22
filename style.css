@@ -86,7 +86,7 @@ html {
     background-color: rgb(28, 104, 41);;
 }
 
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 970px) {
     * {
         margin:0;
         padding:0;
@@ -148,13 +148,13 @@ html {
     }
     .banner h1 {
         font-family:'Trebuchet MS';
-        font-size: 30px;
+        font-size: 20px;
         font-weight:300;
         text-shadow: 0 0.1rem 0.2rem rgba(0, 119, 255, 0.2);
         color: rgb(255, 255, 255);
     }
     .banner p {
-        font-size:18px;
+        font-size:14px;
         font-family:'Segoe UI';
         color: rgba(255, 255, 255, 0.82)
     }
