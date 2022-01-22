@@ -85,3 +85,93 @@ html {
 .start-button:hover {
     background-color: rgb(28, 104, 41);;
 }
+
+@media only screen and (max-width: 980px) {
+    * {
+        margin:0;
+        padding:0;
+        outline:none;
+        box-sizing: border-box;
+        list-style:none;
+        text-decoration:none;
+    }
+    html {
+        font-size: 62.5%;
+        scroll-behavior: smooth;  
+    }
+    .links-menu {
+        position: fixed;
+        top:4%;
+        right:4%;
+        z-index:200;
+    }
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        color: rgb(255, 255, 255, 0.92);
+    }
+    .fa:hover {
+        opacity: 0.7;
+    }
+    .header {
+        width:100%;
+        height:100vh;
+        position: relative;
+    }
+    .img-wrapper {
+        width: 100%;
+        height:100%;
+        background-color: rgb(29, 29, 29);
+    }
+    .img-wrapper img {
+        width:100%;
+        height:100%;
+        object-fit: cover;
+        opacity:0.2;
+    }
+    .banner {
+        position: absolute;
+        text-align: center;
+        display: inline-block;
+        left: 50%;    
+        top:15%;
+        width: 95%;
+        transform: translateX(-50%);
+    }
+    .banner img {
+        border-radius: 50%;
+        width:22%;
+        height:22%;
+    }
+    .banner h1 {
+        font-family:'Trebuchet MS';
+        font-size: 30px;
+        font-weight:300;
+        text-shadow: 0 0.1rem 0.2rem rgba(0, 119, 255, 0.2);
+        color: rgb(255, 255, 255);
+    }
+    .banner p {
+        font-size:18px;
+        font-family:'Segoe UI';
+        color: rgba(255, 255, 255, 0.82)
+    }
+    .banner a {
+        color: rgb(253, 169, 169);
+    }
+    .start-button {
+        background-color: rgb(37, 139, 54); /* Green */
+        border: none;
+        color: rgb(255, 255, 255);
+        padding: 14px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+    .start-button:hover {
+        background-color: rgb(28, 104, 41);;
+    }
+}
